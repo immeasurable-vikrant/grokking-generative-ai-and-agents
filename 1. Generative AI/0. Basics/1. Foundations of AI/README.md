@@ -38,6 +38,15 @@ Example:
 | 2012–Present   | Explosive growth: voice assistants, ChatGPT, self-driving cars, medical diagnosis, etc.  |
 
 
+## 🔍 Types of Learning in AI (Conceptual View)
+
+| Type of Learning       | Description                                                                 | Example                                                   |
+|------------------------|-----------------------------------------------------------------------------|-----------------------------------------------------------|
+| **Rule-Based Learning**| AI follows explicitly written rules created by humans. No actual "learning" from data. | Expert systems, medical diagnosis systems from the 1980s |
+| **Data-Based Learning**| AI learns patterns or functions directly from data using statistical/machine learning methods. | Most of modern ML: image classification, text generation |
+| **Pattern-Based Learning** | A form of data-based learning, but emphasizes discovering hidden patterns, structures, or relationships. | Clustering, association rule mining, topic modeling      |
+
+
 
 ### 🧠 AI vs ML Summary
 | Aspect       | Artificial Intelligence (AI)                       | Machine Learning (ML)                                  |

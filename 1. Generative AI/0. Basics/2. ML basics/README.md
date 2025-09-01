@@ -66,65 +66,49 @@ Early AI research led to algorithms like decision trees and perceptrons, eventua
     Let’s look at three main types:
 
     1. Supervised Learning
+        The machine learns with guidance (like a teacher).
 
-    The machine learns with guidance (like a teacher).
+        You give the machine questions and answers. It learns the pattern from those to 
+        answer new questions.
 
-    💬 Layman:
-
-    You give the machine questions and answers. It learns the pattern from those to answer new questions.
-
-    📘 Academic:
-
-    Given a dataset of input-output pairs (X, Y), the model learns to map input 
-    𝑋
-    →
-    𝑌
-    X→Y using functions (like linear regression, decision trees, etc.).
+        Given a dataset of input-output pairs (X, Y), the model learns to map input 𝑋 → 𝑌
+        X→Y using functions (like linear regression, decision trees, etc.).
 
     🧠 Examples:
 
-    Email spam detection (Email ➝ Spam or Not Spam)
-
-    House price prediction (Features ➝ Price)
-
-    Handwriting recognition (Image ➝ Letter)
+    - Email spam detection (Email ➝ Spam or Not Spam)
+    - House price prediction (Features ➝ Price)
+    - Handwriting recognition (Image ➝ Letter)
 
     2. Unsupervised Learning
 
-    The machine learns without labeled answers.
-
-    💬 Layman:
-
-    You give the machine a pile of stuff, and it groups or organizes it on its own.
-
-    📘 Academic:
-
-    The algorithm tries to find hidden structures or patterns in the data without explicit labels.
+        The machine learns without labeled answers.
+        
+        You give the machine a pile of stuff, and it groups or organizes it on its own.
+        
+        The algorithm tries to find hidden structures or patterns in the data without 
+        explicit labels.
 
     🧠 Examples:
 
-    Customer segmentation (grouping users by behavior)
-
-    Anomaly detection (finding fraud in transactions)
-
-    Topic modeling (finding topics in articles)
+    - Customer segmentation (grouping users by behavior)
+    - Anomaly detection (finding fraud in transactions)
+    - Topic modeling (finding topics in articles)
 
     3. Reinforcement Learning
 
-    The machine learns by trial and error, like how we learn to play a video game.
+        The machine learns by trial and error, like how we learn to play a video game.
 
-    💬 Layman:
+        You give the machine a goal. It tries different actions, gets rewards or 
+        punishments, and learns what works best.
 
-    You give the machine a goal. It tries different actions, gets rewards or punishments, and learns what works best.
-
-    📘 Academic:
-
-    An agent interacts with an environment, takes actions, receives rewards, and aims to maximize cumulative reward over time.
+        An agent interacts with an environment, takes actions, receives rewards, and 
+        aims to maximize cumulative reward over time.
 
     🧠 Examples:
 
-    Self-driving cars
+    - Self-driving cars
 
-    AlphaGo or Chess playing bots
+    - AlphaGo or Chess playing bots
 
-    Robotic arms in factories
+    - Robotic arms in factories
