@@ -8,6 +8,8 @@ It learns patterns by passing data through layers of connected nodes called **ne
 💡 **Think:**  
 A system of decision-makers where each layer refines the output based on what it learned.
 
+## A feedforward neural network (FNN) is an artificial neural network in which information flows in a single direction—from the input layer, through one or more hidden layers, to the output layer—without looping back or any feedback connections.
+
 ---
 
 ## 🔷 Why do we use it?
