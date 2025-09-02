@@ -1,1 +1,1 @@
-## coming soon
+## coming soon - go to gen ai part for now
