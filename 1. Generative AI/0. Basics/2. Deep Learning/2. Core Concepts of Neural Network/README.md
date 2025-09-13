@@ -154,18 +154,21 @@ This is a basic single-layer perceptron solving a simplified XOR-like task.
 
 
 ## 🚀 Real-World Applications Today
-  - Field	Use Case
-  - NLP	Chatbots, translators (GPT)
-  - Vision	Face recognition, self-driving
-  - Healthcare	Diagnosis, drug discovery
-  - Finance	Fraud detection, stock prediction
-  - Creativity	Art, music, image generation
 
+| Field       | Use Case                                |
+|-------------|------------------------------------------|
+| NLP         | Chatbots, translators (GPT)             |
+| Vision      | Face recognition, self-driving          |
+| Healthcare  | Diagnosis, drug discovery               |
+| Finance     | Fraud detection, stock prediction       |
+| Creativity  | Art, music, image generation            |
 
 ## ⚠️ Overfitting vs Underfitting
-Issue	Symptom	Fix
-- Overfitting	Great train accuracy, poor test	Use dropout, L2 regularization
-- Underfitting	Poor accuracy everywhere	Use deeper model, train more
+
+| Issue         | Symptom                          | Fix                          |
+|---------------|----------------------------------|------------------------------|
+| Overfitting   | Great train accuracy, poor test  | Use dropout, L2 regularization |
+| Underfitting  | Poor accuracy everywhere         | Use deeper model, train more  |
 
 
 ## 🧪 Evaluation Metrics
