@@ -138,6 +138,7 @@ Imagine training a neural network to **detect handwritten digits (0-9)** from im
       pred = sigmoid(z)
       print(f"Input: {inputs}, Output: {round(pred)}")
 This is a basic single-layer perceptron solving a simplified XOR-like task.
+```
 
 ## 🧬 Evolution of Neural Networks
 
