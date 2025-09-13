@@ -49,16 +49,16 @@ Early AI research led to algorithms like decision trees and perceptrons, eventua
 
     Process:
 
-    Model takes data.
+    - Model takes data.
 
-    Compares output with correct answer (if available).
+    - Compares output with correct answer (if available).
 
-    Adjusts itself to make fewer mistakes next time.
+    - Adjusts itself to make fewer mistakes next time.
 
-    Repeats until it becomes “good enough”.
+    - Repeats until it becomes “good enough”.
 
-    This is usually done by minimizing something called a "loss function", which 
-    tells the model how far off it is from the correct answer.
+        This is usually done by minimizing something called a "loss function", which 
+        tells the model how far off it is from the correct answer.
 
 
 ### 🧪 Types of Machine Learning (ML)
@@ -66,13 +66,11 @@ Early AI research led to algorithms like decision trees and perceptrons, eventua
     Let’s look at three main types:
 
     1. Supervised Learning
-        The machine learns with guidance (like a teacher).
+        - The machine learns with guidance (like a teacher).
 
-        You give the machine questions and answers. It learns the pattern from those to 
-        answer new questions.
+        - You give the machine questions and answers. It learns the pattern from those to answer new questions.
 
-        Given a dataset of input-output pairs (X, Y), the model learns to map input 𝑋 → 𝑌
-        X→Y using functions (like linear regression, decision trees, etc.).
+        - Given a dataset of input-output pairs (X, Y), the model learns to map input 𝑋 → 𝑌 using functions (like linear regression, decision trees, etc.).
 
     🧠 Examples:
 
@@ -82,12 +80,11 @@ Early AI research led to algorithms like decision trees and perceptrons, eventua
 
     2. Unsupervised Learning
 
-        The machine learns without labeled answers.
+        - The machine learns without labeled answers.
         
-        You give the machine a pile of stuff, and it groups or organizes it on its own.
+        - You give the machine a pile of stuff, and it groups or organizes it on its own.
         
-        The algorithm tries to find hidden structures or patterns in the data without 
-        explicit labels.
+        - The algorithm tries to find hidden structures or patterns in the data without explicit labels.
 
     🧠 Examples:
 
@@ -97,13 +94,12 @@ Early AI research led to algorithms like decision trees and perceptrons, eventua
 
     3. Reinforcement Learning
 
-        The machine learns by trial and error, like how we learn to play a video game.
+        - The machine learns by trial and error, like how we learn to play a video game.
 
-        You give the machine a goal. It tries different actions, gets rewards or 
+        - You give the machine a goal. It tries different actions, gets rewards or 
         punishments, and learns what works best.
 
-        An agent interacts with an environment, takes actions, receives rewards, and 
-        aims to maximize cumulative reward over time.
+        - An agent interacts with an environment, takes actions, receives rewards, and aims to maximize cumulative reward over time.
 
     🧠 Examples:
 
