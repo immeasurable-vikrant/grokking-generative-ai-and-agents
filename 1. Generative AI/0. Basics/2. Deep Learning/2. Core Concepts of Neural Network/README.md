@@ -9,7 +9,41 @@ A **Neural Network (NN)** is a **math-based decision system** inspired by how th
 ### Think of it as:
 > “A function that learns from data to make decisions — like whether an email is spam, or recognizing faces, or generating text.”
 
----
+### What is a Layer in a Neural Network? 
+> A layer in a neural network is a collection of neurons (nodes) that process input data and pass the transformed output to the next layer. Each layer performs computations to extract or transform features from the data.
+
+  Each layer consists of:
+  - Neurons: Computational units that receive input, process it, and pass it forward.
+  - Weights: Parameters that determine how much influence each input has on the neuron's output.
+  - Bias: An extra parameter that helps the neuron adjust the output irrespective of the input.
+  - Activation Function: A function that adds non-linearity to the model, allowing it to learn complex patterns.
+
+  Types of layers:
+  - Input Layer: Takes the raw data.
+  - Hidden Layers: Perform intermediate transformations.
+  - Output Layer: Produces the final prediction.
+
+  ## Neuron Computation
+
+Each neuron computes its output using the following formulas:
+
+\[
+z = \sum (w_i \cdot x_i) + b
+\]
+
+- **\(x_i\)** → Input features  
+- **\(w_i\)** → Weights  
+- **\(b\)** → Bias  
+- **\(z\)** → Weighted sum
+
+\[
+a = \text{activation}(z)
+\]
+
+- **\(a\)** → Output after activation  
+- **activation** → Non-linear function applied to \(z\)
+
+  ---
 
 ## 🧠 Neural Network vs Human Brain
 
