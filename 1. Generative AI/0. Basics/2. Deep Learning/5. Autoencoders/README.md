@@ -1,7 +1,30 @@
+# 📦 Autoencoder Explained
 
-These numbers represent data in a format the neural network can understand and process.
+An **autoencoder** is a type of neural network trained to do one thing:
 
-Text, images, and audio—all get converted into vectors.
+🔄 **Take an input, compress it, and then try to reconstruct the original input as closely as possible.**
+
+This might sound simple, but it’s very powerful.
+
+---
+
+## 🧠 First Principles: The Two Parts of an Autoencoder
+
+### **Encoder**
+- Takes the high-dimensional input (like a large image or sentence).
+- Compresses it into a low-dimensional representation called a **latent vector** (also called latent space).
+
+### **Decoder**
+- Takes this latent vector and tries to rebuild the original input.
+
+---
+
+## 📦 Workflow
+    Input → [Encoder] → Compressed Code (Latent Vector) → [Decoder] → Reconstructed Output
+
+    These numbers represent data in a format the neural network can understand and process.
+
+    Text, images, and audio—all get converted into vectors.
 
 ---
 
