@@ -78,6 +78,16 @@ Although RNNs were groundbreaking for sequence modeling, they come with serious 
 1. **Vanishing/Exploding Gradients**  
    - During training (via backpropagation), signals can disappear (vanish) or blow up (explode) over long sequences.  
    - This makes it hard for RNNs to learn long-range dependencies.
+   **Note** - 
+        The "signal" in this context refers to the gradient values (or error signals) that are  passed backward through the neural network during training using backpropagation.
+
+        When training a neural network, an error signal is computed (based on the difference between predicted and actual output).
+
+        This signal is propagated layer by layer (from output to input) to adjust weights and biases, using the gradients of the loss function.
+
+        If the signal (gradient) becomes very small (vanishes) or very large (explodes) as it travels through many layers or over long sequences, learning becomes unstable or impossible.
+
+        So, in short, "signal" here means the numerical gradients/quantities that carry information about how to update your neural network’s parameters during backpropagation 
 
 2. **Forgetting Long-Term Information**  
    - RNNs often fail to remember words or signals that appeared *much earlier* in the sequence.  
