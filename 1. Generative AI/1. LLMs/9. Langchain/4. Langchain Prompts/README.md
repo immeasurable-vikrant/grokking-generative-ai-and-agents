@@ -1,8 +1,6 @@
-# 🎓 Prompts in LangChain | Generative AI using LangChain | Video 4 | CampusX
+# 🎓 Prompts in LangChain | Generative AI using LangChain 
 
 ## 🧠 Introduction
-Hello everyone! My name is **Nitish**, and welcome to my YouTube channel.  
-In this video, we continue our **LangChain playlist**.
 
 > ⚡ This is **Video 4** — focused on the **second major LangChain component: Prompts**.  
 The video explains why prompts are needed, how they work, and how to use them effectively in LangChain.
