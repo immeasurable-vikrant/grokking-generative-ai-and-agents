@@ -195,21 +195,26 @@ Open-source models offer:
 
     TinyLlama
 
-Using Hugging Face Inference API
+### Using Hugging Face Inference API
 
     File: chat_models/chat_model_huggingface_api.py
 
         from langchain_huggingface import ChatHuggingFace
         model = ChatHuggingFace(
-            repo_id="chinu/tinyllama-1.1b-chat-v1.0",
+            repo_id="chinu/tinyllama-1.1b-chat-v1.0", 
             task="text-generation"
         )
         result = model.invoke("What's the capital of India?")
         print(result.content)
 
-Local Download and Execution
+    - repo_id is the unique identifier of a model hosted on Hugging Face Hub
+    - task parameter tells the Hugging Face inference endpoint what kind of operation
+    the model is built for.
+👉 Inference = Using a trained model to get predictions or answers.    
+On Hugging Face, “inference” refers to:
+    - The API service that runs the model (e.g., “Inference API” or “Inference Endpoints”)
 
-File: chat_models/chat_model_huggingface_local.py
+### Local Download and Execution:
     from langchain_huggingface import HuggingFacePipeline
     from transformers import pipeline
 
@@ -275,3 +280,18 @@ File: embeddings/document_similarity.py
     print(f"Score: {scores[best_index]}")
     
 Foundation for building RAG pipelines and smart search engines.
+
+
+#### FYI (Embedding Vectors):
+
+    - Text embeddings convert sentences into vectors (lists of numbers) so computers can “understand” meaning.
+
+    - Each vector lives in a meaning space, where similar meanings are close together and unrelated meanings are far apart.
+
+    - Dimensions = number of features describing the text (e.g., 32D means 32 numbers per vector).
+
+    - Floating-point numbers allow fine-grained meaning representation; negatives indicate opposition or absence along a feature.
+
+    - The model learns embeddings by reading massive text, adjusting numbers so words/sentences with similar context cluster together.
+
+    - Distance or angle between vectors measures semantic similarity, enabling search, clustering, or reasoning in NLP.

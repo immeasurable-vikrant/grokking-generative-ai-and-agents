@@ -68,19 +68,22 @@ Example: "Write a 5-line poem on cricket."
     ✍️ Prompt Engineering = Crafting inputs for desired outputs
     Examples: Zero-shot, Few-shot, Chain-of-Thought prompting.
 
+    - Zero-shot → The model is asked to perform a task without any examples.
+    - Few-shot → The model is given a few examples along with the task to guide its output.
+    - Chain-of-Thought (CoT) → The model is prompted to reason step by step before giving the final answer.
+
 ## 🧍‍♂️ Static vs Dynamic Prompts
     🧊 Static Prompts
 
-Hardcoded in code — not suitable for real-world apps.
+    Hardcoded in code — not suitable for real-world apps.
 
-response = model.invoke("Write a 5-line poem on cricket.")
-    Problems:
+    response = model.invoke("Write a 5-line poem on cricket.")
 
-        - No personalization
+#### Problems:
 
-        - Inconsistent outputs
-
-        - User typos and variations
+    - No personalization
+    - Inconsistent outputs
+    - User typos and variations
 
 ## ⚙️ Dynamic Prompts (Solution)
 
@@ -111,10 +114,10 @@ Include equations if available. Use analogies or code where helpful.
 
 ## 🖥️ Building a UI for Dynamic Prompts (Streamlit)
 
-pip install streamlit
+    pip install streamlit
 
-Code (prompt_ui.py):
-python 
+#### Code (prompt_ui.py):
+
     import streamlit as st
     from langchain_openai import ChatOpenAI
     from dotenv import load_dotenv
@@ -214,9 +217,9 @@ Concepts:
     | `AIMessage`     | Model output        | “LangChain is a framework…”    |
 
 
-💬 ChatPromptTemplate
+## 💬 ChatPromptTemplate
 
-    For multi-turn conversations with variables.
+### For multi-turn conversations with variables.
 
     from langchain_core.prompts import ChatPromptTemplate
 
@@ -230,7 +233,7 @@ Concepts:
 
 
 ## 🧱 MessagesPlaceholder
-Use for inserting past chat history dynamically.
+#### Use for inserting past chat history dynamically.
 
     from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
     from langchain_core.messages import HumanMessage, AIMessage
@@ -265,13 +268,13 @@ Use for inserting past chat history dynamically.
 
 
 ## 🧭 Summary Diagram
-User Input
-   ↓
-PromptTemplate / ChatPromptTemplate
-   ↓
-Model (ChatOpenAI / Llama / etc.)
-   ↓
-Response
+    User Input
+       ↓
+    PromptTemplate / ChatPromptTemplate
+       ↓
+    Model (ChatOpenAI / Llama / etc.)
+       ↓
+    Response
 
 
 
