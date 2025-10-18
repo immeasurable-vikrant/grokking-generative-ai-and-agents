@@ -279,15 +279,13 @@ Concepts:
 
 
 
-
-FYI:
-    | **Concept**        | **2-Line Summary**                                                                                                                        |
-    | ------------------ | ----------------------------------------------------------------------------------------------------------------------------------------- |
-    | **Context**        | The full input the model uses (prompts, history, documents).<br>It determines what the model "remembers" during response generation.      |
-    | **Context Window** | The max number of tokens the model can process at once (input + output).<br>If exceeded, older data is dropped or errors occur.           |
-    | **Token**          | A chunk of text, roughly 4 characters or ¾ of a word.<br>Used to measure input/output length and billing.                                 |
-    | **Why It Matters** | Token limits affect model memory, costs, and output quality.<br>Efficient token use = better, cheaper, smarter responses.                 |
-    | **100 Tokens**     | ~75 words or ~400 characters, not 100 words.<br>You’re billed for both input and output tokens.                                           |
-    | **Model Examples** | GPT-3.5 (16k tokens), GPT-4o (128k), Claude 3 (200k+).<br>Bigger window = better long-context understanding.                              |
-    | **Cost Impact**    | More tokens = higher cost (for paid APIs).<br>Use concise prompts to save money.                                                          |
-    | **When to Care**   | Important in long chats, RAG, large docs, summarization, and agent memory.<br>Optimizing tokens ensures functionality and budget control. |
+| **Concept**        | **2-Line Summary**                                                                                                                        |
+| ------------------ | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| **Context**        | The full input the model uses (prompts, history, documents).<br>It determines what the model "remembers" during response generation.      |
+| **Context Window** | The max number of tokens the model can process at once (input + output).<br>If exceeded, older data is dropped or errors occur.           |
+| **Token**          | A chunk of text, roughly 4 characters or ¾ of a word.<br>Used to measure input/output length and billing.                                 |
+| **Why It Matters** | Token limits affect model memory, costs, and output quality.<br>Efficient token use = better, cheaper, smarter responses.                 |
+| **100 Tokens**     | ~75 words or ~400 characters, not 100 words.<br>You’re billed for both input and output tokens.                                           |
+| **Model Examples** | GPT-3.5 (16k tokens), GPT-4o (128k), Claude 3 (200k+).<br>Bigger window = better long-context understanding.                              |
+| **Cost Impact**    | More tokens = higher cost (for paid APIs).<br>Use concise prompts to save money.                                                          |
+| **When to Care**   | Important in long chats, RAG, large docs, summarization, and agent memory.<br>Optimizing tokens ensures functionality and budget control. |
