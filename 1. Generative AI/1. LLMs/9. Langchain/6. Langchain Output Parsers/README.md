@@ -1,5 +1,3 @@
-
-```markdown
 # Output Parsers in LangChain  
 **Generative AI using LangChain | Video 6 | CampusX**  
 *📝 Comprehensive Notes with Examples & Explanations* 
@@ -82,8 +80,6 @@ print(result)  # Outputs: 5-line summary as string
 ```
 
 > **Elaboration**: Chain (`|`) pipes steps: Prompt1 → Model → Parse (text) → Prompt2 → Model → Parse. Extension: Use with Hugging Face (e.g., Gemma model) for open-source.
-
----
 
 ## 5. JSON Output Parser 🔗
 
